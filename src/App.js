@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 import './App.css';
 import Header from './Header'
-import Article from './Article';
-import Side from './Side'
-import Bottom from './Bottom'
 import Footer from './Footer'
+import Main from './Main'
+
+
 
 
 
@@ -14,14 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        
-        <main className="expanded row">
-        
-       
-        <Article />
-        <Side />
-        <Bottom />
-        </main>
+        <Main />
         <Footer />
         
 
