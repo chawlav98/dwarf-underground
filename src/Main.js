@@ -3,6 +3,7 @@ import Author from './Author'
 import Article from './Article';
 import Side from './Side'
 import Bottom from './Bottom'
+import Links from './Links'
 
 
 class Main extends Component {
@@ -10,14 +11,13 @@ class Main extends Component {
       return (
 
 
-        <main className="expanded row">
+     <main className="expanded row">
         <Author />
         <Article />
-        <Links />
-        
         <Side />
         <Bottom />
-        </main>
+        <Links />
+     </main>
 
         
     )
